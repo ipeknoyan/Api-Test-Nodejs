@@ -11,7 +11,7 @@
  
  Execute **npm install** to install packages
  
- Execute **npx test** to run the tests
+ Execute **npm test** to run the tests
  
 # Next Possible Steps for Improvements
  * Reports can be custimized according to requirements.
