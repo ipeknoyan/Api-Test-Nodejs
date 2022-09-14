@@ -10,7 +10,7 @@ var username;
 var password;
 
 //This test suit includes GET Cases
-describe('GET Cases', () => {
+describe('Sending GET Request To Get User Info', () => {
     //Request api for each test case
     beforeEach(() => {
         return request.get('t/fu807-1554722621/post').then((res) => {
@@ -56,7 +56,7 @@ describe('GET Cases', () => {
  });
 
  //This test suit includes POST Cases
- describe('POST Cases', () => {
+ describe('Sending POST Request To Get IP and Token', () => {
     //Request api for each test case
     beforeEach(() => {
         return request
